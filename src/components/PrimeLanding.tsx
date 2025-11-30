@@ -206,7 +206,7 @@ const PrimeLanding = () => {
 
         {/* Premium CTA Section */}
         <div className="text-center mb-12 md:mb-16 w-full px-2">
-          <a href="https://t.me/primekaz_support" target="_blank" rel="noopener noreferrer">
+          <a href="https://lkzq.cc/c98f5c" target="_blank" rel="noopener noreferrer">
             <Button className="premium-mega-cta bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-4 md:px-8 py-3 md:py-6 text-base md:text-xl font-black rounded-2xl shadow-2xl transition-all duration-300 w-full max-w-sm md:max-w-none md:w-auto">
               <ArrowRight className="mr-2 md:mr-3 h-4 md:h-6 w-4 md:w-6" />
               <span className="text-sm md:text-xl leading-tight">ПОЛУЧИТЬ ХАЛЯВНЫЕ ДЕНЬГИ !!!</span>
