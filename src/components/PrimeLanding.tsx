@@ -9,8 +9,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
-
+   
 const PrimeLanding = () => {
   const slides = [
     {
@@ -181,7 +180,7 @@ const PrimeLanding = () => {
               <h3 className="text-2xl md:text-3xl font-black mb-3 md:mb-4 tracking-wider">PRIME KAZIK</h3>
               <p className="text-lg md:text-xl opacity-90 mb-4 md:mb-6">Азартные игры и слоты</p>
             </div>
-            <a href="https://t.me/+XiL8pf2uTkNhNDQ6" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/+BeWxLbLq5FliZjcy" target="_blank" rel="noopener noreferrer">
               <Button className="premium-button bg-white text-blue-600 hover:bg-gray-100 px-6 md:px-8 py-3 md:py-4 text-base md:text-lg font-bold rounded-xl shadow-lg transition-all duration-300 w-full sm:w-auto">
                 <Play className="mr-2 h-4 md:h-5 w-4 md:w-5" />
                 Начать играть
@@ -195,7 +194,7 @@ const PrimeLanding = () => {
               <h3 className="text-2xl md:text-3xl font-black mb-3 md:mb-4 tracking-wider">PRIME BET</h3>
               <p className="text-lg md:text-xl opacity-90 mb-4 md:mb-6">Ставки на спорт и киберспорт</p>
             </div>
-            <a href="https://t.me/+mPyZzgC_tZ9lZjQy" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/+0g_E9lTq3ZtkOTE6" target="_blank" rel="noopener noreferrer">
               <Button className="premium-button bg-white text-red-600 hover:bg-gray-100 px-6 md:px-8 py-3 md:py-4 text-base md:text-lg font-bold rounded-xl shadow-lg transition-all duration-300 w-full sm:w-auto">
                 <Play className="mr-2 h-4 md:h-5 w-4 md:w-5" />
                 Начать играть
@@ -271,7 +270,7 @@ const PrimeLanding = () => {
 
               <Button 
                 className="premium-cta-button w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white px-6 md:px-8 py-3 md:py-4 text-base md:text-lg font-bold rounded-xl shadow-2xl transition-all duration-300"
-                onClick={() => window.open('https://t.me/+XiL8pf2uTkNhNDQ6', '_blank')}
+                onClick={() => window.open('https://t.me/+BeWxLbLq5FliZjcy', '_blank')}
               >
                 <ExternalLink className="mr-2 h-4 md:h-5 w-4 md:w-5" />
                 Перейти в Telegram
@@ -316,7 +315,7 @@ const PrimeLanding = () => {
 
               <Button 
                 className="premium-cta-button w-full bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white px-6 md:px-8 py-3 md:py-4 text-base md:text-lg font-bold rounded-xl shadow-2xl transition-all duration-300"
-                onClick={() => window.open('https://t.me/+mPyZzgC_tZ9lZjQy', '_blank')}
+                onClick={() => window.open('https://t.me/+0g_E9lTq3ZtkOTE6', '_blank')}
               >
                 <ExternalLink className="mr-2 h-4 md:h-5 w-4 md:w-5" />
                 Перейти в Telegram
@@ -324,14 +323,13 @@ const PrimeLanding = () => {
             </Card>
           </div>
 
-          {/* Video GIFs Section - moved here under the branching cards */}
+          {/*
           <div className="mt-16 md:mt-20">
             <div className="grid lg:grid-cols-2 gap-8 md:gap-12">
               
-              {/* Kazino Video-GIF */}
               <div 
                 className="premium-video-card bg-gradient-to-br from-purple-900/50 to-blue-900/50 border-2 border-purple-500/30 p-6 md:p-8 rounded-2xl shadow-2xl backdrop-blur-sm cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-3xl"
-                onClick={() => window.open('https://t.me/+XiL8pf2uTkNhNDQ6', '_blank')}
+                onClick={() => window.open('https://t.me/+BeWxLbLq5FliZjcy', '_blank')}
               >
                 <div className="aspect-video bg-gradient-to-br from-purple-800 to-blue-800 rounded-xl mb-4 md:mb-6 flex items-center justify-center relative overflow-hidden">
                   <div className="absolute inset-0 bg-black/20"></div>
@@ -345,7 +343,6 @@ const PrimeLanding = () => {
                 <p className="text-white text-center opacity-80">Нажми для перехода в Telegram канал</p>
               </div>
 
-              {/* Betting Video-GIF */}
               <div 
                 className="premium-video-card bg-gradient-to-br from-red-900/50 to-orange-900/50 border-2 border-red-500/30 p-6 md:p-8 rounded-2xl shadow-2xl backdrop-blur-sm cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-3xl"
                 onClick={() => window.open('https://t.me/+mPyZzgC_tZ9lZjQy', '_blank')}
@@ -363,10 +360,11 @@ const PrimeLanding = () => {
               </div>
             </div>
           </div>
+                  */}
         </div>
+
       </section>
 
-      {/* About Section */}
       <section id="about" className="relative z-20 py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-black text-white text-center mb-12 md:mb-16 tracking-wider">
@@ -591,7 +589,7 @@ const PrimeLanding = () => {
             
             <Button 
               className="premium-social-button bg-gradient-to-r from-pink-500 to-rose-600 hover:from-pink-600 hover:to-rose-700 text-white px-6 md:px-8 py-4 md:py-5 text-base md:text-lg font-bold rounded-2xl shadow-2xl transition-all duration-300"
-              onClick={() => window.open('https://t.me/+mPyZzgC_tZ9lZjQy', '_blank')}
+              onClick={() => window.open('https://www.instagram.com/primekazik_soft/', '_blank')}
             >
               <Instagram className="mr-2 md:mr-3 h-5 md:h-6 w-5 md:w-6" />
               Instagram
